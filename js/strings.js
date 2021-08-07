@@ -34,13 +34,15 @@ const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
 const regex = /[A-Z]/g;
 const found = paragraph.match(regex); // expected output: Array ["T", "I"]
 
-// 
+// The split() method divides a String into an ordered list of substrings, puts these substrings into an array,
+//  and returns the array.  The division is done by searching for a pattern;
+// where the pattern is provided as the first parameter in the method's call.
 string.split('') // ["s", "o", "m", "e", " ", "s", "t", "r", "i", "n", "g"]
 
-// 
-string.substring(0,5) // "some "
+//  method returns the part of the string between the start and end indexes, or to the end of the string.
+string.substring(0,4) // "some"
 
-// 
+// method extracts a section of a string and returns it as a new string, without modifying the original string.
 string.slice(0,4) // "some"
 
 // method removes whitespace from both ends of a string. 
