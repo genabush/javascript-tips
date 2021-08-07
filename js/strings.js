@@ -22,12 +22,12 @@ str.toLowerCase(); // some value
 str.toUpperCase(); // SOME VALUE
 
 // method returns the first index at which a given element can be found in the array, or -1 if it is not present.
-string.indexOf('s') // 0
-string.indexOf('a') // -1
+str.indexOf('s') // 0
+str.indexOf('a') // -1
 
 // method performs a case-sensitive search to determine whether one string may be found within another string,
 // returning true or false as appropriate.
-string.includes('some') // true
+str.includes('some') // true
 
 // method retrieves the result of matching a string against a regular expression.
 const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
@@ -37,13 +37,13 @@ const found = paragraph.match(regex); // expected output: Array ["T", "I"]
 // The split() method divides a String into an ordered list of substrings, puts these substrings into an array,
 //  and returns the array.  The division is done by searching for a pattern;
 // where the pattern is provided as the first parameter in the method's call.
-string.split('') // ["s", "o", "m", "e", " ", "s", "t", "r", "i", "n", "g"]
+str.split('') // ["s", "o", "m", "e", " ", "s", "t", "r", "i", "n", "g"]
 
 //  method returns the part of the string between the start and end indexes, or to the end of the string.
-string.substring(0,4) // "some"
+str.substring(0,4) // "some"
 
 // method extracts a section of a string and returns it as a new string, without modifying the original string.
-string.slice(0,4) // "some"
+str.slice(0,4) // "some"
 
 // method removes whitespace from both ends of a string. 
 // Whitespace in this context is all the whitespace characters 
