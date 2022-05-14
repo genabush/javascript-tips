@@ -49,3 +49,21 @@ str.slice(0,4) // "some"
 // Whitespace in this context is all the whitespace characters 
 //(space, tab, no-break space, etc.) and all the line terminator characters (LF, CR, etc.).
 ' 1'.trim() // "1"
+
+// contact string methods
+const firstName = 'Gena ';
+const lastName = 'Kulabukhov';
+
+// concat strings by using plus operator
+let fullName = firstName + lastName;
+
+// concat strings by using template literals
+fullName = `${firstName}${lastName}`;
+
+// concat strings by using contact method
+fullName = firstName.concat(lastName);
+
+// The endsWith() method determines whether a string ends with the
+//  characters of a specified string, returning true or false as appropriate.
+const string = 'Gena';
+const isStringHasEl = string.endsWith('na');
